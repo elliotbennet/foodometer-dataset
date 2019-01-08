@@ -17,6 +17,7 @@ if __name__ == "__main__":
 	arguments = sys.argv.pop(0)
 	if arguments[0] == '.':
 		directories = [d for d in os.listdir(dir_path + "/..") if os.path.isdir(d)]
+		print("DPATH: " + dir_path + "/..")
 		for directory in directories:
 			rename_files(dir)
 		sys.exit()
