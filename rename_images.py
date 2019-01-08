@@ -4,6 +4,7 @@ import os
 import sys
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
+invalid_directories = ['.git', 'gitignore']
 
 def rename_files(directory):
 	i = 1
@@ -16,10 +17,10 @@ def rename_files(directory):
 if __name__ == "__main__":
 	arguments = sys.argv.pop(0)
 	if arguments[0] == '.':
-		directories = [d for d in os.listdir(dir_path) if os.path.isdir(d)]
+		directories = [d for d in os.listdir(dir_path) if os.path.isdir(d) and d not in invalid_directories]
 		print("DIRECTORIES: " + str(directories))
 		for directory in directories:
-			rename_files(dir)
+			rename_files(directory)
 		sys.exit()
 	for directory in arguments:
 		dir = "./" + directory
