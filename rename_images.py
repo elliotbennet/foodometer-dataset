@@ -17,7 +17,7 @@ if __name__ == "__main__":
 	arguments = sys.argv.pop(0)
 	for directory in arguments:
 		dir = dir_path + directory
-		print("Arguments: " + sys.argv)
+		print("Arguments: " + str(sys.argv))
 		print("Directory: " + directory)
 		print("dir: " + dir)
 		if os.listdir(dir):
