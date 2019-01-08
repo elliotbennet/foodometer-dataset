@@ -17,6 +17,8 @@ if __name__ == "__main__":
 	arguments = sys.argv.pop(0)
 	for directory in arguments:
 		dir = dir_path + directory
+		print("Directory: " + directory)
+		print("dir: " + dir)
 		if os.listdir(dir):
 			rename_files(dir)
 		else:
