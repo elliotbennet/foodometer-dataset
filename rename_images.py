@@ -14,7 +14,7 @@ def rename_files(directory):
     		i = i+1
 
 if __name__ == "__main__":
-	arguments = sys.argv
+	arguments = sys.argv.pop(0)
 	for directory in arguments:
 		dir = dir_path + directory
 		print("Arguments: " + str(sys.argv))
