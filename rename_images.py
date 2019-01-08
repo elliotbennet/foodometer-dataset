@@ -12,7 +12,7 @@ def rename_files(directory):
     		i = i+1
 
 if __name__ == "__main__":
-	arguments = len(sys.argv).pop(0)
+	arguments = sys.argv.pop(0)
 	for directory in arguments:
 		if os.listdir(directory):
 			rename_files(directory)
