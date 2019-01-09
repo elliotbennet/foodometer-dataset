@@ -1,0 +1,26 @@
+<annotation>
+	<folder>ice-cream</folder>
+	<filename>112.jpeg</filename>
+	<path>/Users/elliotbennet/Desktop/foodometer-dataset/ice-cream/112.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>229</width>
+		<height>220</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ice-cream</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>67</xmin>
+			<ymin>76</ymin>
+			<xmax>167</xmax>
+			<ymax>183</ymax>
+		</bndbox>
+	</object>
+</annotation>
