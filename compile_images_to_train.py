@@ -14,4 +14,4 @@ for directory in training_classes:
 		if (os.path.isfile(file_name)):
 			shutil.copy(file_name, destination)
 		else:
-			print('File doesn't exist: {}'.format(file_name))
+			print('File doesn\'t exist: {}'.format(file_name))
