@@ -2,6 +2,7 @@
 
 import os
 import shutil
+import sys
 
 current_dir = os.path.dirname(os.path.realpath(__file__))
 training_classes = os.listdir('{}/datasets'.format(current_dir))
@@ -15,3 +16,5 @@ for directory in training_classes:
 			shutil.copy(file_name, destination)
 		else:
 			print('File doesn\'t exist: {}'.format(file_name))
+			sys.exit()
+	print('Successfully copied {} files'.format(len(os.listdir(class_dir))))
