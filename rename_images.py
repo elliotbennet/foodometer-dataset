@@ -4,7 +4,7 @@ import os
 import sys
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-invalid_directories = ['.git', 'gitignore']
+invalid_directories = ['.git', '.gitignore', '.DS_Store']
 
 def rename_files(directory):
 	i = 1
