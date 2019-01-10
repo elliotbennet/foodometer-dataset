@@ -13,7 +13,7 @@ for directory in training_classes:
 	class_dir = '{0}/datasets/{1}'.format(current_dir, directory)
 	for image in os.listdir(class_dir):
 		file_name = os.path.join(class_dir, image)
-		if (os.path.isfile(file_name) and file_name not in invalid_directories):
+		if (os.path.isfile(file_name) and file_name not in invalid_files):
 			shutil.copy(file_name, destination)
 		else:
 			print('File doesn\'t exist: {}'.format(file_name))
