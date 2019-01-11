@@ -1,0 +1,50 @@
+<annotation>
+	<folder>ice-cream</folder>
+	<filename>8_Chocolate Ice Cream.JPG</filename>
+	<path>/Users/elliotbennet/Desktop/foodometer-dataset/datasets/ice-cream/8_Chocolate Ice Cream.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2448</width>
+		<height>3264</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ice-cream</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>656</xmin>
+			<ymin>1195</ymin>
+			<xmax>1633</xmax>
+			<ymax>2022</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ice-cream</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1510</xmin>
+			<ymin>1149</ymin>
+			<xmax>2156</xmax>
+			<ymax>1477</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>ice-cream</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1697</xmin>
+			<ymin>1358</ymin>
+			<xmax>2448</xmax>
+			<ymax>2033</ymax>
+		</bndbox>
+	</object>
+</annotation>

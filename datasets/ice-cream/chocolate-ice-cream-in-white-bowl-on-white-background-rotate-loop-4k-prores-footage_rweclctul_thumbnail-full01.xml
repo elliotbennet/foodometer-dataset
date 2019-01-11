@@ -1,0 +1,26 @@
+<annotation>
+	<folder>ice-cream</folder>
+	<filename>chocolate-ice-cream-in-white-bowl-on-white-background-rotate-loop-4k-prores-footage_rweclctul_thumbnail-full01.png</filename>
+	<path>/Users/elliotbennet/Desktop/foodometer-dataset/datasets/ice-cream/chocolate-ice-cream-in-white-bowl-on-white-background-rotate-loop-4k-prores-footage_rweclctul_thumbnail-full01.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ice-cream</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>557</xmin>
+			<ymin>228</ymin>
+			<xmax>1359</xmax>
+			<ymax>815</ymax>
+		</bndbox>
+	</object>
+</annotation>
